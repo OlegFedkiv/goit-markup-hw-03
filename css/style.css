@@ -5,10 +5,78 @@ body {
 }
 ul,
 ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 a {
+  color: inherit;
   text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+/* ====Клас який приховує ========*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+/* ==== /Клас який приховує ========*/
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-paddings {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.17;
+  letter-spacing: -0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+/* ===============HEADER============== */
+
+.page-nav {
+  display: flex;
+  margin-top: 23px;
 }
 .page-logo {
   font-family: "Raleway", sans-serif;
@@ -21,6 +89,15 @@ a {
 }
 .page-span {
   color: #2e2f42;
+}
+.menu {
+  display: flex;
+  gap: 39px;
+  margin-left: 76px;
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
 }
 .menu-link-iteam {
   font-weight: 500;
@@ -49,17 +126,22 @@ a {
   color: #404bbf;
 }
 
+/* ==============/HEADER=============== */
+
 /*........... Section 1............ */
 
 .page-section-one {
   background-color: #2e2f42;
+  padding-top: 600px;
 }
+
 .title-section-one {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  max-width: 496px;
 }
 .button-section-one {
   background-color: #4d5ae5;
