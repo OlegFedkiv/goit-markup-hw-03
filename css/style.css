@@ -127,6 +127,7 @@ img {
 }
 .contacts-list-address {
   display: flex;
+  gap: 40px;
 }
 .contacts-item {
   margin-right: 40px;
