@@ -107,10 +107,7 @@ img {
 .menu-iteam {
   padding: 24px 0;
 }
-.contacts-list-address {
-  display: flex;
-  gap: 40px;
-}
+
 .menu-link-iteam {
   font-weight: 500;
   line-height: 1.5;
@@ -126,6 +123,10 @@ img {
 }
 .contacts {
   font-style: normal;
+}
+.contacts-list-address {
+  display: flex;
+  gap: 40px;
 }
 .contacts-link {
   line-height: 1.5;
