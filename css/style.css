@@ -127,8 +127,12 @@ img {
 }
 .contacts-list-address {
   display: flex;
-  align-items: center;
-  gap: 40px;
+}
+.contacts-item {
+  margin-right: 40px;
+}
+.contacts-item:nth-last-child {
+  margin-right: 0;
 }
 .contacts-link {
   line-height: 1.5;
