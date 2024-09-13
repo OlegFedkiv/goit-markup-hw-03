@@ -77,9 +77,11 @@ img {
 .main-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.container {
+.header-conteiner {
   display: flex;
+  align-items: center;
 }
+
 .page-nav {
   display: flex;
   align-items: center;
@@ -146,6 +148,9 @@ img {
   height: 600px;
   padding: 188px 0;
 }
+.page-section-1 {
+  align-items: center;
+}
 
 .title-section-one {
   font-size: 56px;
@@ -154,6 +159,8 @@ img {
   letter-spacing: 0.02em;
   color: #ffffff;
   max-width: 496px;
+  margin-left: 331px;
+  margin-top: 24px;
 }
 .button-section-one {
   background-color: #4d5ae5;
@@ -169,6 +176,8 @@ img {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  margin-left: 495px;
+  margin-top: 24px;
 }
 .button-section-one:hover,
 .button-section-one:focus {
@@ -213,12 +222,13 @@ img {
   margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
-  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  text-align: center;
   display: flex;
   gap: 24px;
+  margin-left: 483px;
 }
 
 .list-section-three {
@@ -325,5 +335,6 @@ img {
   line-height: 1.5;
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 /* .............../Footer................ */
