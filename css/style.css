@@ -148,7 +148,6 @@ img {
 .page-section-one {
   background-color: #2e2f42;
   height: 600px;
-  margin-bottom: 50px;
   padding: 188px 0;
 }
 .page-section-1 {
@@ -229,9 +228,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  display: flex;
-  gap: 24px;
-  margin-left: 483px;
 }
 
 .list-section-three {
