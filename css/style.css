@@ -94,7 +94,7 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 75px;
+  margin-right: 76px;
 }
 .page-span {
   color: #2e2f42;
@@ -149,6 +149,7 @@ img {
   background-color: #2e2f42;
   height: 600px;
   margin-bottom: 50px;
+  padding: 188px 0;
 }
 .page-section-1 {
   align-items: center;
@@ -162,8 +163,7 @@ img {
   color: #ffffff;
   margin: 0 auto;
   margin-bottom: 48px;
-  padding-top: 189px;
-  width: 496px;
+  max-width: 496px;
 }
 .button-section-one {
   background-color: #4d5ae5;
